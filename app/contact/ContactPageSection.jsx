@@ -206,21 +206,21 @@ export const ContactPageSection = () => {
                   ref={contactItem2}
                 >
                   <p className="small-description grey">Address</p>
-                  <p className="description white">1667 18th St Oakland, CA 94607</p>
+                  <p className="description white">600 Raging River Rd, Cedar Park, TX 78613</p>
                 </div>
                 <div
                   className="contact-content-item opacity-blur"
                   ref={contactItem5}
                 >
                   <p className="small-description grey">Whatsapp</p>
-                  <p className="description white">+1 334 717 1332</p>
+                  <p className="description white">+1 (828) 715-3589</p>
                 </div>
                 <div
                   className="contact-content-item opacity-blur"
                   ref={contactItem6}
                 >
                   <p className="small-description grey">Email</p>
-                  <p className="description white">victorwinslowyee035@gmail.com</p>
+                  <p className="description white">mdv46960@gmail.com</p>
                 </div>
                 {/* <div
                   className="contact-content-item opacity-blur"
@@ -241,7 +241,7 @@ export const ContactPageSection = () => {
                   ref={contactItem3}
                 >
                   <p className="small-description grey">Phone Number</p>
-                  <p className="description white">+1 510 775 0304</p>
+                  <p className="description white">+1 (737) 394-3906</p>
                 </div>
               </div>
             </div>

@@ -135,7 +135,7 @@ const SectionShowreel = () => {
             ref={showreelItemRef1}
           >
             <img
-              src="/logos/salesforce.png"
+              src="/images/Google-Logo.webp"
               className="showreel-content-row-item-image"
               alt=""
             />
@@ -146,7 +146,7 @@ const SectionShowreel = () => {
             ref={showreelItemRef2}
           >
             <img
-              src="/logos/insight.png"
+              src="/images/microsoft-logo.png"
               className="showreel-content-row-item-image"
               alt=""
             />
@@ -158,7 +158,7 @@ const SectionShowreel = () => {
           >
             
             <img
-              src="/logos/zephyr.png"
+              src="/images/Garmin-Logo.png"
               className="showreel-content-row-item-image"
               alt=""
             />
@@ -169,7 +169,7 @@ const SectionShowreel = () => {
             ref={showreelItemRef4}
           >
             <img
-              src="/logos/semel.png"
+              src="/images/microsoft-logo.png"
               className="showreel-content-row-item-image"
               alt=""
             />
@@ -192,7 +192,7 @@ const SectionShowreel = () => {
               </h4>
               <div className="flex flex-col flex-1 gap-2">
                 <h3 className="text-2xl font-medium leading-7 text-zinc-200">
-                Principal AI/ML Software Engineer | Team Lead | Senior Data Scientist (Salesforce)
+                Senior Staff AI/ML Software Engineer (Google)
                   <span className="font-normal text-zinc-400 lg:hidden">
                     {" "}
                     - 2026
@@ -200,30 +200,27 @@ const SectionShowreel = () => {
                 </h3>
                 <ul className="pl-5 list-disc text-zinc-400 text-xl marker:text-zinc-500">
                   <li>
-                  Architected production-grade GenAI and RAG systems supporting enterprise conversational intelligence,
-                  knowledge management, AI assistants, semantic search, and customer-facing automation workflows.   
+                  Led architecture and hands-on delivery of large-scale distributed platforms spanning Java/Spring Boot, Python/FastAPI, Go/gRPC, C#/.NET, React/Next.js, TypeScript, Kafka, PostgreSQL, Redis, BigQuery, and cloud-native services.   
                   </li>
                   <li>
-                  Developed intelligent document processing and retrieval workflows for enterprise PDFs, scanned records,
-                  knowledge repositories, and regulated business documents supporting OCR, semantic search, and RAG use cases.
+                  Designed production AI-enabled applications using RAG, structured LLM outputs, MCP/tool integrations, deterministic business rules, authorization controls, human approvals, evaluation gates, and observable fallback behavior.
                   </li>
                   <li>
-                  Evaluated AutoGen- and CrewAI-based multi-agent orchestration approaches for autonomous task routing,
-                  collaborative agent execution, tool coordination, and enterprise workflow experimentation.  
+                 Architected event-driven systems using Kafka and Google Pub/Sub with partitioning, bounded concurrency, backpressure, idempotency, retries, dead-letter recovery, replay, schema evolution, and explicit source-of-truth ownership.  
                   </li>
                   <li>
-                  Exposed FastAPI, Node.js, and .NET Core APIs supporting OCR extraction, semantic retrieval, enterprise search, SharePoint-style repository integration, and governed document-processing workflows while storing extracted metadata and embeddings using DynamoDB, MongoDB and PostgreSQL.
+                  Built cloud-native production platforms on GCP using GKE, Cloud Run, BigQuery, Dataflow, Pub/Sub, Cloud SQL, Cloud Storage, IAM/KMS, Docker, Kubernetes, Helm, and Terraform, with AWS and Azure interoperability implementations.
                   </li>
                   <li>
-                  Designed Azure-focused AI agent workflows and enterprise automation prototypes aligned with Microsoft AI ecosystem requirements, including Azure AI services, agent orchestration, and workflow automation.
+                 Delivered full-stack enterprise applications with React, Next.js, Angular, TypeScript, Node.js/NestJS, REST, GraphQL, WebSockets, OpenAPI, and role-aware workflows supporting operational and AI-assisted use cases.
                   </li>
                   <li>
-                  Implemented Azure serverless orchestration workflows using Azure Functions, Azure Storage, Azure Monitor, Azure SQL, Cosmos DB, logging, and alerting for conversational context persistence, metadata management, and enterprise AI operations.
+                 Built and operated data platforms using BigQuery, Apache Beam/Dataflow, Spark/PySpark, Databricks, Delta Lake, Airflow/Composer, Snowflake, dbt, and governed batch/streaming pipelines with lineage, quality, and replay controls.
                   </li>
                   <li>
-	                Designed AWS-based MLOps workflows using SageMaker, EKS, ECS, MLflow, Kubeflow, Terraform, and Kubernetes-native pipeline orchestration for scalable training, deployment, and monitoring.                  </li>
+	               Drove production reliability through OpenTelemetry, structured logging, Prometheus/Grafana, SLOs, load and fault testing, performance profiling, incident RCA, runbooks, staged deployment, canary releases, and rollback strategies.                  </li>
                    <li>
-                  Delivered AWS Bedrock-based GenAI prototypes with human-in-the-loop validation, response review checkpoints, model comparison workflows, and governed enterprise AI interaction patterns.
+                Owned Staff-level technical direction across architecture, service boundaries, API/data contracts, security, performance, production readiness, code/design reviews, mentoring, cross-team dependencies, and long-term operational ownership.
                   </li>
                    <li>
                   Orchestrated LangGraph and MCP-style orchestration workflows for stateful multi-agent execution, governed tool invocation, workflow routing, shared context management, retries, fallback handling, and auditable enterprise AI interactions.
@@ -242,11 +239,11 @@ const SectionShowreel = () => {
               className="relative pl-6 before:absolute before:left-0 before:top-2 before:z-10 before:h-2 before:w-2 before:-translate-x-1/2 before:rounded-full before:bg-zinc-500 before:ring-2 before:ring-white lg:flex lg:gap-12 lg:pl-0 lg:before:left-[8.5rem]"
             >
               <h4 className="hidden text-2xl text-center font-medium leading-7 text-zinc-400 lg:block lg:w-28 ">
-                2019
+                2014
               </h4>
               <div className="flex flex-col flex-1 gap-2">
                 <h3 className="text-2xl font-medium leading-7 text-zinc-200">
-                Technical Advisor | Artificial Intelligence Fellow (Insight Data Science)
+                Senior Software Development Engineer (Microsoft)
                   <span className="font-normal text-zinc-400 lg:hidden">
                     {" "}
                     - 2021
@@ -254,21 +251,22 @@ const SectionShowreel = () => {
                 </h3>
                 <ul className="pl-5 list-disc text-zinc-400 text-xl marker:text-zinc-500">
                   <li>
-                  Advised AI fellows and engineering teams on applied machine learning, product development, deployment strategy, and production-oriented AI system design.
-                  </li>
+                  Built and modernized production C#/.NET and ASP.NET services for search, telemetry, administration, enterprise integration, and distributed content-processing platforms.                  </li>
                   <li>
-                  Mentored data scientists and engineers on ML architecture, model development, data infrastructure, product design, and application deployment.
-                  </li>
+Designed asynchronous processing architectures using Azure Service Bus, Blob Storage, Table Storage, Azure SQL, queues, durable state, bounded retries, backpressure, reconciliation, and deterministic replay.                  </li>
                   <li>
-                  Guided fellows on how to translate research prototypes into production-oriented applications with clear model assumptions, metrics, and user-facing workflows.
-                  </li>
+Developed distributed C++ and C# processing components with multithreaded workers, bounded queues, checkpointing, failure isolation, partitioning, and recovery for high-volume content and search workloads.                  </li>
                   <li>
-                  Provided technical feedback on system design, data pipeline structure, model-serving approaches, and cloud deployment readiness.
-                  </li>
+Modernized SOAP/WCF integrations behind versioned REST APIs while preserving backward compatibility, defining validation, authentication, pagination, error handling, throttling, and migration contracts.                  </li>
                   <li>
-                  Developed a deep learning application for medical imaging analysis focused on pneumonia detection from chest X-rays.
-                  </li>
-                  
+Diagnosed complex production issues using ETW traces, crash dumps, performance counters, request logs, queue telemetry, SQL Server execution plans, and CPU, memory, locking, I/O, and dependency-latency analysis.                  </li>
+                                    <li>
+Designed and tuned SQL Server and Azure SQL schemas, stored procedures, indexes, retention strategies, transactions, connection usage, caching, and execution plans for operational and analytical workloads.                  </li>
+<li>
+Built Python diagnostic, reconciliation, and analytics utilities alongside ASP.NET operational portals supporting deployment evidence, replay, defect triage, reporting, and production investigation.         </li>
+         <li>
+Strengthened release engineering and operational reliability through automated builds and tests, TFS/MSBuild/PowerShell pipelines, staged deployments, rollback controls, fault-injection testing, incident RCA, and production-support handoff.
+                </li>
                 </ul>
               </div>
             </li>
@@ -277,11 +275,11 @@ const SectionShowreel = () => {
               className="relative pl-6 before:absolute before:left-0 before:top-2 before:z-10 before:h-2 before:w-2 before:-translate-x-1/2 before:rounded-full before:bg-zinc-500 before:ring-2 before:ring-white lg:flex lg:gap-12 lg:pl-0 lg:before:left-[8.5rem]"
             >
               <h4 className="hidden text-2xl text-center font-medium leading-7 text-zinc-400 lg:block lg:w-28 ">
-                2014
+                2012
               </h4>
               <div className="flex flex-col flex-1 gap-2">
                 <h3 className="text-2xl font-medium leading-7 text-zinc-200">
-                Software Engineer | Data Scientist  (Zephyr Health)
+                Technical Lead Software Engineer  (Garmin)
                   <span className="font-normal text-zinc-400 lg:hidden">
                     {" "}
                     - 2018
@@ -289,20 +287,21 @@ const SectionShowreel = () => {
                 </h3>
                 <ul className="pl-5 list-disc text-zinc-400 text-xl marker:text-zinc-500">
                   <li>
-                  Developed Java and Spring Boot backend services for healthcare data ingestion, categorization, scoring, entity disambiguation, and integration workflows.
-                  </li>
+Led backend engineering for connected-device synchronization platforms processing activity, route, device, and user data through resilient distributed workflows.                  </li>
                   <li>
-                  Contributed to migration from monolithic pipeline services to Spring Kafka microservices, improving data refresh and processing speed.
-                  </li>
+Designed AWS-hosted services using EC2, Elastic Load Balancing, Auto Scaling, S3, RDS, SQS, and CloudWatch for scalable processing, durable storage, asynchronous execution, and production monitoring.                  </li>
                   <li>
-                  Deployed containerized backend services using Docker and AWS ECS to support scalable healthcare analytics and distributed data-processing workloads.
-                  </li>
+Built Java and C++ services for device synchronization, GPS record processing, route enrichment, account synchronization, and backend APIs supporting connected-device applications.                  </li>
                   <li>
-                  Designed OCR and healthcare document-processing pipelines using OpenCV, Tesseract, Python, and NLP workflows to extract structured information from clinical documents, provider records, insurance forms, and healthcare PDFs.
-                  </li>
+Developed geospatial processing workflows with PostgreSQL/PostGIS and GDAL for route geometry, spatial search, map matching, distance calculations, elevation enrichment, and location-based analysis.                  </li>
                   <li>
-                  Trained machine learning models on publication, clinical trial, insurance, provider, and commercial healthcare datasets to forecast product adoption and market behavior.
-                  </li>
+Implemented resilient processing with checksum validation, duplicate detection, bounded concurrency, idempotent consumers, resumable workflows, retries, dead-letter handling, replay, and malformed-data quarantine.                  </li>
+                                  <li>
+Built Python/Django operational and reconciliation tools for route inspection, failed-upload analysis, workflow status, device diagnostics, controlled replay, and support investigation.     </li>          
+   <li>
+Improved system performance and reliability through profiling, concurrency tuning, data-structure changes, SQL/index optimization, caching, soak testing, interrupted-network testing, and realistic device-payload simulations.      </li>
+            <li>
+Owned technical planning, architecture and code reviews, task decomposition, release readiness, troubleshooting, mentoring, and collaboration across firmware, mobile, cartography, product, quality, and support teams. </li>
                 </ul>
               </div>
             </li>
@@ -311,11 +310,11 @@ const SectionShowreel = () => {
               className="relative pl-6 before:absolute before:left-0 before:top-2 before:z-10 before:h-2 before:w-2 before:-translate-x-1/2 before:rounded-full before:bg-zinc-500 before:ring-2 before:ring-white lg:flex lg:gap-12 lg:pl-0 lg:before:left-[8.5rem]"
             >
               <h4 className="hidden text-2xl text-center font-medium leading-7 text-zinc-400 lg:block lg:w-28 ">
-                2009
+                2008
               </h4>
               <div className="flex flex-col flex-1 gap-2">
                 <h3 className="text-2xl font-medium leading-7 text-zinc-200">
-                Statistical Programmer Analyst | Software Engineer (Semel Institute for Neuroscience and Human Behavior)
+                Software Development Engineer II (Microsoft)
                   <span className="font-normal text-zinc-400 lg:hidden">
                     {" "}
                     - 2014
@@ -323,19 +322,17 @@ const SectionShowreel = () => {
                 </h3>
                 <ul className="pl-5 list-disc text-zinc-400 text-xl marker:text-zinc-500">
                   <li>
-                  Designed statistical programming, ETL, and research software workflows supporting neuroscience, psychiatry, autism, ADHD, epilepsy, and cancer genetics research.
-                  </li>
+Built C++ and C#/.NET components for Microsoft’s Windows Live Search content-processing platform, supporting ingestion, normalization, partitioning, and indexing of large-scale content streams.                  </li>
                   <li>
-                  Consulted on psychiatry and neuroscience studies involving data acquisition, study design, statistical modeling, statistical programming, and research publication support.
-                  </li>
+Developed multithreaded processing workers with bounded queues, backpressure, checkpointing, retries, failure isolation, and deterministic replay to improve reliability across distributed batch workflows.                  </li>
                   <li>
-                  Developed internal research applications and automation workflows using Python and Flask for data preparation, analysis support, and research reporting.
-                  </li>
+Designed internal .NET/WCF service interfaces with versioned contracts, validation, timeouts, serialization controls, and backward-compatibility testing for distributed service integration.                  </li>
                   <li>
-                  Designed data munging and analysis workflows to support online cancer genetics education evaluation and research administration.
-                  </li>
+Built Python-based analysis and diagnostic utilities plus ASP.NET operational tools for monitoring batch status, parser failures, indexing health, reconciliation, and relevance-test results.                  </li>
                   <li>
-                  Built ETL workflows using R, Python, Bash, SQL, and reproducible scripting patterns for neuroimaging, spectroscopic, behavioral, and bioinformatics datasets.
+Designed and optimized SQL Server schemas, stored procedures, indexes, archival routines, and reporting queries supporting high-volume processing, operational metadata, and troubleshooting.                  </li>
+                  <li>
+                    Supported production releases and incident response through automated build/test pipelines, performance diagnostics, staged deployment, rollback procedures, root-cause analysis, and cross-team coordination.
                   </li>
                 </ul>
               </div>

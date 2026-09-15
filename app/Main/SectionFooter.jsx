@@ -84,15 +84,10 @@ const SectionFooter = () => {
             height={29}
             alt="Logo"
           />
-          <h1 className="subheadline white">Victor Winslow Yee</h1>
+          <h1 className="subheadline white">Kevin Daniel Resnick</h1>
           <p className="description grey">
-           Principal AI/ML Software Engineer and senior applied AI leader with 15+ years of experience delivering
-           production-grade AI/ML platforms, GenAI systems, distributed backend services, NLP pipelines, recommendation systems,
-           healthcare analytics, and cloud-native ML infrastructure. Strong hands-on experience across Python, Java, C#, Go, FastAPI,
-           Spring Boot, PyTorch, TensorFlow, Hugging Face Transformers, Kafka, Databricks, AWS, Azure, GCP, Kubernetes,
-           and MLOps workflows. Experienced in enterprise RAG systems, Agentic AI, vector retrieval, event-driven architectures,
-           scalable ETL/ELT pipelines, and production AI governance, monitoring, and observability. Specialized in healthcare AI,
-           conversational intelligence, clinical analytics, FHIR/HL7-aware workflows, and enterprise AI platform development.
+Senior Staff AI/ML and Software Engineer with 20+ years of experience in distributed systems, cloud platforms, data, and production software, with deep specialization in GenAI and Agentic AI. Hands-on with LangGraph/LangChain, MCP, RAG/GraphRAG, MLOps, NLP, multimodal AI, and cloud/data platforms across GCP, AWS, Azure, Databricks, and Snowflake. Leads technical direction while remaining hands-on in implementation, evaluation, security, observability, CI/CD, and production operations.
+
           </p>
         </div>
         <div className="footer-content-right">
@@ -145,11 +140,11 @@ const SectionFooter = () => {
       <div className="footer-divider" />
       <div className="footer-content-bottom">
         <p className="small-description grey">
-          © 2026 Victor Winslow Yee All Rights Reserved
+          © 2026 Kevin Daniel Resnick All Rights Reserved
         </p>
         <div className="footer-socials">
           {/* <Linkedin strokeWidth={1.25} className="footer-socials-icon" /> */}
-          <a href="https://www.linkedin.com/in/victorwyee/" target="_blank">
+          <a href="https://www.linkedin.com/in/kevinresnick/" target="_blank">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 1000 1000"

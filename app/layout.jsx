@@ -3,9 +3,9 @@ import { Navigation } from "./Navigation";
 import Awwards from "./Awwards";
 
 export const metadata = {
-  title: " Victor Winslow Yee | Get in Touch",
+  title: " Kevin Daniel Resnick | Get in Touch",
   description:
-    "Full Stack(React/Angular, Python)|AI/ML Engineer. open to collaboration. Victor Winslow Yee portfolio developed by victorwinslowyee035@gmail.com. Let's connect!",
+    "Full Stack(React/Angular, Python)|AI/ML Engineer. open to collaboration. Kevin Daniel Resnick portfolio developed by mdv46960@gmail.com. Let's connect!",
   keywords: [
     "website design",
     "UX/UI design",

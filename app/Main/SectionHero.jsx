@@ -178,22 +178,14 @@ const SectionHero = () => {
               <div className="hero-titlebox">
                 <div className="hero-titlebox-gradient" />
                 <h1 className="headline hero-headline white" ref={titleRef}>
-                  I&apos;m Victor Winslow Yee <br /> Principal AI/ML Software <br /> Engineer | Data Scientist  <br /> 
-                  (Python/C#/Java/Go, <br />React/Angular)
+                  I&apos;m Kevin Daniel Resnick Senior Staff AI/ML Software Engineer | GenAI, Agentic AI
                 </h1>
               </div>
               <p
                 className="big-description grey opacity-blur"
                 ref={descriptionRef}
               >
-                Principal AI/ML Software Engineer and senior applied AI leader with 15+ years of experience
-                delivering production-grade AI/ML platforms, GenAI systems, distributed backend services, NLP pipelines,
-                recommendation systems, healthcare analytics, and cloud-native ML infrastructure. Strong hands-on experience
-                across Python, Java, C#, Go, FastAPI, Spring Boot, PyTorch, TensorFlow, Hugging Face Transformers, Kafka, Databricks,
-                AWS, Azure, GCP, Kubernetes, and MLOps workflows. Experienced in enterprise RAG systems, Agentic AI, vector retrieval,
-                event-driven architectures, scalable ETL/ELT pipelines, and production AI governance, monitoring, and observability.
-                Specialized in healthcare AI, conversational intelligence, clinical analytics, FHIR/HL7-aware workflows,
-                and enterprise AI platform development.
+             Senior Staff AI/ML and Software Engineer with 20+ years of experience building and operating distributed systems, cloud platforms, APIs, data-intensive services, full-stack applications, and production AI/ML platforms. Hands-on across Python, Java/Spring Boot, C#/.NET, Go, TypeScript/JavaScript, React/Next.js, Angular, Node.js, SQL, messaging, containers, and cloud infrastructure, with deep specialization in GenAI, Agentic AI, LangGraph/LangChain, MCP, RAG/GraphRAG, MLOps, NLP, multimodal AI, and reinforcement-learning experimentation. Experienced across GCP, AWS, Azure, Databricks, and Snowflake, with strong depth in architecture, performance, security, CI/CD, observability, reliability, and production operations. Leads technical direction, architecture and code reviews, mentoring, and cross-team delivery while remaining hands-on in implementation, debugging, evaluation, and critical production systems.
               </p>
             </div>
             {/* <div className="hero-buttons-row">
